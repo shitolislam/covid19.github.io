@@ -1,4 +1,5 @@
 *{
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
@@ -29,6 +30,7 @@ body{
 }
 .carousel-caption {
     border-radius: 50px;
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
     overflow: hidden;
     text-justify: inherit;
@@ -39,7 +41,7 @@ body{
     background-position: center;
 }
 #explore-head h2 {
-    color: blue;
+    color: #0b0bfa;
     font-weight: bold;
 }
 #boxes .card {
