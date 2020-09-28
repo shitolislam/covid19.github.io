@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: #5c5a5a;
+}
+.navbar-brand img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.navbar ul li:hover {
+    background: #7b1aeb;
+    border-radius: 50px;
+}
+.navbar ul li a {
+    font-size: 20px;
+}
+.navbar ul li a .fa{
+    color: #f5fdf2;
+    padding-right: 5px;
+}
+#slider1 img {
+    width: 100%;
+    height: 90vh;
+}
+.carousel-caption {
+    border-radius: 50px;
+    box-sizing: border-box;
+    overflow: hidden;
+    text-justify: inherit;
+}
+#explore-head {
+    background-image:url('../images/pic1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+#explore-head h2 {
+    color: blue;
+    font-weight: bold;
+}
+#boxes .card {
+    height: 380px;
+}
+#authors img{
+    margin-top: -50px;
+    width: 80px;
+    height: 80px;
+    border-radius: 90px;
+}
+#authors .card:hover{
+    background: #3292a6;
+    color: #fff;
+}
+#authors .fa{
+    font-size: 25px;
+}
+#authors .card:hover .fa{
+    color: #fff;
+}
+
